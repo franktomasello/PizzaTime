@@ -27,6 +27,7 @@ public class SetUp
 		driver.findElement(StoreLocatorPage.streetAddressInputField()).sendKeys(read.loadPropertyValue("street_Address"));
 		driver.findElement(StoreLocatorPage.zipCodeInputField()).click();
 		driver.findElement(StoreLocatorPage.zipCodeInputField()).sendKeys(read.loadPropertyValue("zip_Code"));
+		//
 	}
 
 
